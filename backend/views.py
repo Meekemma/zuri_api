@@ -9,6 +9,9 @@ from .models import Slack
 
 @api_view(['GET'])
 def apiOverView(request):
+    api_url ={
+        'list': '/slack-list/',
+    }
     return Response("API BASE POINT", safe=False)
 
 
