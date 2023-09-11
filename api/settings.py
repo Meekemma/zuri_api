@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-t$+t@7qt*t^)$+lb$6o&_gzel-bu$(c0xz63yvvl6w_&10t4j&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['zuri-api-8f6t-i599muc65-meekemma.vercel.app', '127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
